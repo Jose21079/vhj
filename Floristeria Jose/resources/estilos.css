@@ -1,0 +1,115 @@
+body{
+    font-family: 'Kavivanar', cursive;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    color: green;
+}
+.textos{
+    font-size: 170%;
+    text-align: justify;
+    width: 30%;
+    padding-left: 36%;
+    font-family:'Noto Sans', sans-serif;
+    color: black;
+}
+.encabezado{
+    text-align: center;
+}
+.lista{
+    font-family: 'Kavivanar', cursive;
+    color: white;
+    border-style: solid ;
+    border-color: black;
+    background-color: black;
+    padding: 0.5%
+}
+input[type=search]{
+    width: 25%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(lupa.png);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+input[type=search]:focus {
+width: 60%;
+}
+form{
+    align-content: center;
+    text-align: center;
+    align-items: center;
+}
+table{
+    padding-left: 45%;
+    color: black;
+    background-color: bisque;
+    border-style: dashed
+    
+}
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+input[type=email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+input[type=password] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 2px;
+}
+input[name=genero]{
+    border:solid;
+    border-color: dodgerblue;
+}
+select {
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    padding: 8px 10px;
+    border: solid;
+    border-color: dodgerblue;
+    border-radius: 4px;
+    background-color:whitesmoke;
+}
+.boton{
+    border-style: solid;
+    border-color: dodgerblue
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+input[type=tel]{
+    width: 100%
+}
+img{
+    width: 10%;
+}
+img:hover{
+    width: 20%;
+    transition:2000ms;
+    border-radius: 15%;
+    border-style: dashed;
+    border-color: aquamarine;
+}
